@@ -8,7 +8,7 @@ for (var i = 1; i <= 100; i++) {
     count.push("fizz");
 	} else if(i % 5 == 0) {
 	count.push("buzz");
-    } else if(i % 3 !== 0, i % 5 !== 0) 
+    } else
 	count.push(i);
 };
 
